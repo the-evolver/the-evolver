@@ -7,7 +7,7 @@
 
 ![Codeforces Stats Card](https://codeforces-stats-api.herokuapp.com/stats?username=the_evolver&theme=1)
 
-Get your Codeforces Stats Card: [GitHub Readme Codeforces Stats](https://github.com/the_evolver/github-readme-codeforces-stats)
+Get your Codeforces Stats Card: [GitHub Readme Codeforces Stats](https://github.com/the-evolver/github-readme-codeforces-stats)
 
 <!---
 the-evolver/the-evolver is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
