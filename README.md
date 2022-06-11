@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning dsa & webdev
 - 💞️ I’m looking to collaborate on web dev projects
 - 📫 How to reach me atulsharma98535@gmail.com
-### My Codeforces Stats
+
 
 
 
