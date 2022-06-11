@@ -5,7 +5,7 @@
 - 📫 How to reach me atulsharma98535@gmail.com
 ### My Codeforces Stats
 
-![Codeforces Stats Card][(https://codeforces.com/api/user.status?handle=the_evolver&from=1&count=10)]
+![Codeforces Stats Card](https://codeforces.com/api/user.status?handle=the_evolver&from=1&count=10)
 
 
 
