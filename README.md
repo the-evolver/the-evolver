@@ -12,7 +12,7 @@
 
 ## 🚀 About Me
 
-Passionate Software Engineer with experience in building scalable backend systems and intuitive frontends. I specialize in JavaScript, Java, AWS, and microservices, and thrive on solving complex engineering problems. I prioritize clean architecture, high performance, and maintainable, reliable code.
+Passionate Software Engineer with experience in building scalable backend systems and intuitive frontends. I specialize in JavaScript, Java, AWS, and microservices, and thrive on solving complex engineering problems. I prioritize clean architecture, high performance, maintainable and reliable code.
 
 ---
 
