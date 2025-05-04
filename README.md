@@ -102,10 +102,16 @@ A buzzing accommodation platform inspired by bees, providing a smooth UX for hos
 
 ---
 
+## 📊 Developer Stats
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=the-evolver&theme=radical" />
+  <br />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=the-evolver&theme=radical" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=the-evolver&theme=radical" />
+  <br />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=the-evolver&theme=radical" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=the-evolver&theme=radical&utcOffset=5" />
 </p>
 
 ---
