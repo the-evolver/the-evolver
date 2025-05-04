@@ -63,6 +63,20 @@ Passionate Software Engineer with experience in building scalable backend system
 
 ---
 
+## 📊 Developer Stats
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=the-evolver&theme=radical" />
+  <br />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=the-evolver&theme=radical" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=the-evolver&theme=radical" />
+  <br />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=the-evolver&theme=radical" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=the-evolver&theme=radical&utcOffset=5" />
+</p>
+
+---
+
 ### 🌟 Achievements
 
 - 🏆 **Winner**, Triathlon Hackathon – *Top among 5000+ participants*  
@@ -101,25 +115,6 @@ A buzzing accommodation platform inspired by bees, providing a smooth UX for hos
 > _"Chaos isn’t a pit. Chaos is a ladder."_ — Littlefinger, *Game of Thrones*
 
 ---
-
-## 📊 Developer Stats
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=the-evolver&theme=radical" />
-  <br />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=the-evolver&theme=radical" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=the-evolver&theme=radical" />
-  <br />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=the-evolver&theme=radical" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=the-evolver&theme=radical&utcOffset=5" />
-</p>
-
----
-
-
-
-
-
 
 
 <!---
