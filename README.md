@@ -1,63 +1,109 @@
-# Hello, I'm Atul! 👋
+<h1 align="center">Hey there 👋, I'm Atul</h1>
+<p align="center">
+  <img src="https://github.com/atul/atul/blob/main/assets/banner-3d.gif" alt="3D Banner" width="90%" />
+</p>
 
-Highly motivated and skilled Computer Science undergraduate | Full Stack Java Developer
+<p align="center">
+  <b>Software Engineer | Full-Stack Dev | Cloud-Native Enthusiast | System Design Buff</b>
+</p>
 
-## About Me
+---
 
-I am a passionate and dedicated Computer Science undergraduate with a strong focus on Full Stack Java Development. My journey in software development began with a solid foundation in Java, and I have since expanded my skills to encompass various technologies and frameworks.
+> _"When you play the game of code, you either deploy or you debug."_  
+> — adapted from Cersei Lannister
 
-- 🔭 I’m currently working on honing my Full Stack Java skills and exploring new technologies.
-- 🌱 I’m continuously learning and improving my knowledge of data structures, algorithms, and software design principles.
-- 👯 I’m looking to collaborate on projects that involve innovative solutions and challenging problems.
-- 💬 Ask me about Java development, algorithmic problem-solving, and software engineering best practices.
-- 📫 How to reach me: (mailto:atulsharma98535@gmail.com)
-- 😄 Pronouns: He/Him 
-- ⚡ Fun fact: I'm a big fan of science fiction movies and can spend hours discussing theories and analyzing plot twists.
+## 🚀 About Me
 
-## Experience
+I’m Atul, a Software Engineer passionate about building resilient backend architectures and intuitive frontend interfaces. I specialize in cloud-native applications, real-time distributed systems, and scaling solutions that work flawlessly across the tech stack.
 
-### Intern, Anikini Technologies Pvt. Ltd
-- Optimized programs, resulting in significant runtime reductions.
-- Integrated web socketJS into a Spring application, enhancing real-time communication capabilities.
-- Improved persistence logic, streamlining data storage and retrieval processes.
+Whether it's optimizing a DynamoDB query from 600ms to 150ms, creating RAG tools with OpenAI, or setting up GitHub Actions to slash hotfix deployment times — I do it with performance and elegance in mind.
 
-## Skills
+---
 
-- Programming Languages: Java,C++, JavaScript ,Python
-- Front-end Development: HTML, CSS, JavaScript, Thymeleaf , ReactJs
-- Back-end Development: Spring Boot, Hibernate , JDBC ,Servlet,Jsp ,NodeJs 
-- Database: MySQL, MongoDB
-- Version Control: Git
+## 🛠️ Tech Stack
 
-## Projects
+**Languages**  
+`Java` `JavaScript` `C++` `SQL`  
 
-### Project 1: Smart Contact Mangaer
-- Description: The Smart Contact Manager is an advanced Java-based contact management system developed using Spring Boot, Hibernate, and Core Java. It incorporates features such as Spring Security for authorization and authentication, CSRF protection to prevent unauthorized actions, and URL securing for safeguarding sensitive information. The project follows the Model-View-Controller (MVC) architecture, ensuring better organization and scalability. With a strong emphasis on security and efficiency, the Smart Contact Manager offers a robust solution for managing contacts. Skills utilized include Java, Spring Boot, Hibernate, and JavaScript.
-- Technologies Used: Java , Spring Boot , Object-Oriented Programming (OOP) , Hibernate , JavaScript .
-- GitHub Repository: https://github.com/the-evolver/smart_contact_manager
+**Frontend**  
+`Vue.js` `React.js` `Handlebars.js` `Bootstrap` `TailwindCSS`  
 
-### Project 2: AirBnBee
-- Description: AirBnBee is an innovative and buzzing project that aims to provide a unique and delightful accommodation experience for travellers. Inspired by the vibrant world of bees, AirBnBee offers a platform where hosts can showcase their properties, and guests can find their perfect hive away from home.
-- Technologies Used:  React.js , Next.js , Tailwind CSS , Prisma , MongoDB , NextAuth
-- GitHub Repository: https://github.com/the-evolver/AirBnBee
+**Backend & Frameworks**  
+`Spring Boot` `Node.js` `Express.js` `Microservices`  
 
-## Achievements
+**Databases**  
+`MongoDB` `MySQL` `DynamoDB` `Redis` `PostgreSQL` `Oracle` `NoSQL`  
 
-- Solved over 1000+ algorithmic problems on platforms like LeetCode, GeeksforGeeks, CodeChef, and Codeforces.
-- Cyber Olympiad Qualified
-- Air 6 codechef october long challenge 2022.
+**DevOps & Tools**  
+`Docker` `Kubernetes` `AWS (S3, IAM, EC2, ECS, ECR, CloudFront)` `GitHub Actions` `Jenkins` `Maven` `CI/CD`  
 
-## Education
+**Message Queues / Infra**  
+`Apache Kafka` `KSQLDB` `New Relic` `SaaS Systems`  
 
-- Bachelor of Science in Computer Science.
+**Testing & QA**  
+`Selenium WebDriver` `Mocha/Chai` `Accessibility Testing` `Jest`  
 
-## Get In Touch
+---
 
-- LinkedIn: https://www.linkedin.com/in/atulcse/
-- Personal Website: https://the-evolver.github.io/
-- Email: atulsharma98535@gmail.com
+## 💼 Work Experience
 
-Feel free to reach out to connect, collaborate, or discuss any exciting opportunities. I'm always open to exploring new projects and challenges!
+**Software Engineer @ Compro Technologies**  
+📍 New Delhi, India | 🗓️ Jul 2023 - Present
+
+- 🔁 Migrated full-stack backend from Amazon S3 to DynamoDB using the Port-Adapter Model, enhancing UX by 30% and reducing response times by 40% with Kafka integration.
+- 🧪 Developed Selenium integration tests across 5+ microservices, saving 40% manual QA effort with 99% accuracy using New Relic alerts.
+- ☁️ Orchestrated 10+ environment-specific AWS deployments integrating across VPCs, boosting scalability and cutting deployment time by 30%.
+- 🧩 Integrated a front-end player via Module Federation, enabling seamless module sharing across multiple applications.
+- ♿ Introduced an accessibility checklist, solving 50+ usability issues and improving site usability by 30%.
+- 🧠 Mentored new developers to be project-ready and high-performing within weeks.
+- 🔍 Identified and fixed 10+ security vulnerabilities using AWS Inspector, enhancing both speed and security.
+- 🔧 Resolved a high-priority production bug that had gone unfixed after 10+ attempts by others.
+- 🌍 Developed and maintained distributed systems with Kafka, Node.js, AWS, and Vue.js; delivered 5+ new features with great client feedback.
+- 📄 Built a Retrieval-Augmented Generation tool using OpenAI and Chroma Vector DB to serve 100–120 QPS from chunked PDF data.
+- 🔐 Integrated secure JWT auth via RSASHA256 with the Manuca player.
+- 🧬 Migrated and indexed S3 binary data with context-switching & GSI, slashing query latency by 75%.
+- ⚙️ Built a CI/CD pipeline (Docker, GitHub Actions, ECS/ECR, S3) that reduced hotfix deployment time by 75%.
+
+---
+
+🚀 **Highlighted Projects**
+
+### 🔹 [Smart Contact Manager](https://github.com/the-evolver/smart_contact_manager)
+An advanced Java-based contact management app with Spring Security, CSRF protection, URL securing, and MVC architecture.
+- 🛠️ **Tech:** Java, Spring Boot, Hibernate, OOP, JavaScript
+- 🔐 Security-focused with seamless user experience and authorization flows
+
+### 🔹 [AirBnBee](https://github.com/the-evolver/AirBnBee)
+A buzzing accommodation platform inspired by bees, providing a smooth UX for hosts and guests.
+- 🛠️ **Tech:** React.js, Next.js, Tailwind CSS, Prisma, MongoDB, NextAuth
+- 🐝 Custom-designed to emulate the collaborative nature of hives
+
+
+---
+
+## 🌐 Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/atulcse/)  
+- [Portfolio](https://the-evolver.github.io/)  
+- 📧 contacts.atulsharma@gmail.com  
+
+---
+
+## 🧠 Fun Fact
+
+> _"I don't get lucky. I make my own luck."_ — Harvey Specter, *Suits*
+
+> _"Chaos isn’t a pit. Chaos is a ladder."_ — Littlefinger, *Game of Thrones*
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical" />
+</p>
+
+---
 
 
 
