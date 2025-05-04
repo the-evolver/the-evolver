@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Software Engineer | Full-Stack Dev | Code Likhta Hoon, Bugs Ko Thappad Marta Hoon </b>
+  <b>Software Engineer | Full-Stack Dev </b>
 </p>
 
 ---
@@ -16,28 +16,49 @@ Passionate Software Engineer with experience in building scalable backend system
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack:
 
-**Languages**  
-`Java` `JavaScript` `C++` `SQL`  
+![Java](https://img.shields.io/badge/Java-%23FF0000.svg?style=for-the-badge&logo=java&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![C++](https://img.shields.io/badge/C%2B%2B-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
+![SQL](https://img.shields.io/badge/SQL-%23007A93.svg?style=for-the-badge&logo=sql&logoColor=white) 
 
-**Frontend**  
-`Vue.js` `React.js` `Handlebars.js` `Bootstrap` `TailwindCSS`  
+![Vue.js](https://img.shields.io/badge/vue.js-%234FC08D.svg?style=for-the-badge&logo=vue.js&logoColor=white) 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
+![Handlebars](https://img.shields.io/badge/handlebars-%23f26b29.svg?style=for-the-badge&logo=handlebars&logoColor=white) 
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
 
-**Backend & Frameworks**  
-`Spring Boot` `Node.js` `Express.js` `Microservices`  
+![Spring Boot](https://img.shields.io/badge/spring%20boot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white) 
+![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) 
+![Microservices](https://img.shields.io/badge/microservices-%23FF5733.svg?style=for-the-badge&logo=microservices&logoColor=white) 
 
-**Databases**  
-`MongoDB` `MySQL` `DynamoDB` `Redis` `PostgreSQL` `Oracle` `NoSQL`  
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) 
+![DynamoDB](https://img.shields.io/badge/DynamoDB-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white) 
+![Redis](https://img.shields.io/badge/Redis-%23D32F2F.svg?style=for-the-badge&logo=redis&logoColor=white) 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23007458.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
+![Oracle](https://img.shields.io/badge/oracle-%23F80000.svg?style=for-the-badge&logo=oracle&logoColor=white) 
 
-**DevOps & Tools**  
-`Docker` `Kubernetes` `AWS (S3, IAM, EC2, ECS, ECR, CloudFront)` `GitHub Actions` `Jenkins` `Maven` `CI/CD`  
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) 
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) 
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white) 
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232F363D.svg?style=for-the-badge&logo=github-actions&logoColor=white) 
+![Jenkins](https://img.shields.io/badge/jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white) 
+![Maven](https://img.shields.io/badge/maven-%23C71A36.svg?style=for-the-badge&logo=apache-maven&logoColor=white) 
+![CI/CD](https://img.shields.io/badge/CI%2FCD-%23F2C911.svg?style=for-the-badge&logo=circleci&logoColor=white) 
 
-**Message Queues / Infra**  
-`Apache Kafka` `KSQLDB` `New Relic` `SaaS Systems`  
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-%23181717.svg?style=for-the-badge&logo=apachekafka&logoColor=white) 
+![KSQLDB](https://img.shields.io/badge/ksqldb-%23D32F2F.svg?style=for-the-badge&logo=apachekafka&logoColor=white) 
+![New Relic](https://img.shields.io/badge/New%20Relic-%230084B8.svg?style=for-the-badge&logo=newrelic&logoColor=white) 
+![SaaS](https://img.shields.io/badge/SaaS-%23008080.svg?style=for-the-badge&logo=saaS&logoColor=white) 
 
-**Testing & QA**  
-`Selenium WebDriver` `Mocha/Chai` `Accessibility Testing` `Jest`  
+![Selenium](https://img.shields.io/badge/Selenium-%23279B17.svg?style=for-the-badge&logo=selenium&logoColor=white) 
+![Mocha](https://img.shields.io/badge/mocha-%238D6748.svg?style=for-the-badge&logo=mocha&logoColor=white) 
+![Chai](https://img.shields.io/badge/chai-%2348B8D0.svg?style=for-the-badge&logo=chai&logoColor=white) 
+![Jest](https://img.shields.io/badge/jest-%23C21325.svg?style=for-the-badge&logo=jest&logoColor=white) 
+![Accessibility Testing](https://img.shields.io/badge/accessibility%20testing-%23104E8B.svg?style=for-the-badge&logo=accessibility&logoColor=white)
 
 ---
 
