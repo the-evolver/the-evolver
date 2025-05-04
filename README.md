@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <b>Software Engineer | Full-Stack Dev | Code Likhta Hoon, Bugs Ko Thappad Marda Hoon </b>
+  <b>Software Engineer | Full-Stack Dev | Code Likhta Hoon, Bugs Ko Thappad Marta Hoon </b>
 </p>
 
 ---
