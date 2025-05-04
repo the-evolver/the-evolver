@@ -14,9 +14,7 @@
 
 ## 🚀 About Me
 
-I’m Atul, a Software Engineer passionate about building resilient backend architectures and intuitive frontend interfaces. I specialize in cloud-native applications, real-time distributed systems, and scaling solutions that work flawlessly across the tech stack.
-
-Whether it's optimizing a DynamoDB query from 600ms to 150ms, creating RAG tools with OpenAI, or setting up GitHub Actions to slash hotfix deployment times — I do it with performance and elegance in mind.
+Passionate Software Engineer with experience in building scalable backend systems and intuitive frontends. I specialize in JavaScript, Java, AWS, and microservices, and thrive on solving complex engineering problems. I prioritize clean architecture, high performance, and maintainable, reliable code.
 
 ---
 
@@ -50,19 +48,26 @@ Whether it's optimizing a DynamoDB query from 600ms to 150ms, creating RAG tools
 **Software Engineer @ Compro Technologies**  
 📍 New Delhi, India | 🗓️ Jul 2023 - Present
 
-- 🔁 Migrated full-stack backend from Amazon S3 to DynamoDB using the Port-Adapter Model, enhancing UX by 30% and reducing response times by 40% with Kafka integration.
-- 🧪 Developed Selenium integration tests across 5+ microservices, saving 40% manual QA effort with 99% accuracy using New Relic alerts.
+- 🔁 Migrated from S3 to DynamoDB: handled schema design, custom scripts, translation logic, validation checks, and CloudFormation deployment, enhancing UX by 30% and reducing response times by 40% with Kafka integration.
 - ☁️ Orchestrated 10+ environment-specific AWS deployments integrating across VPCs, boosting scalability and cutting deployment time by 30%.
+- 📄 Built and delivered performant, accessible frontend features using Vue, React, and Tailwind CSS; led Module Federation setup, resolved 50+ accessibility issues, and achieved 80%+ zero-bug QA delivery
 - 🧩 Integrated a front-end player via Module Federation, enabling seamless module sharing across multiple applications.
-- ♿ Introduced an accessibility checklist, solving 50+ usability issues and improving site usability by 30%.
-- 🧠 Mentored new developers to be project-ready and high-performing within weeks.
+- ♿  Introduced an accessibility checklist, solving 50+ usability issues and improving site usability by 30%.
 - 🔍 Identified and fixed 10+ security vulnerabilities using AWS Inspector, enhancing both speed and security.
 - 🔧 Resolved a high-priority production bug that had gone unfixed after 10+ attempts by others.
-- 🌍 Developed and maintained distributed systems with Kafka, Node.js, AWS, and Vue.js; delivered 5+ new features with great client feedback.
-- 📄 Built a Retrieval-Augmented Generation tool using OpenAI and Chroma Vector DB to serve 100–120 QPS from chunked PDF data.
-- 🔐 Integrated secure JWT auth via RSASHA256 with the Manuca player.
+- 🌍 Developed and maintained distributed systems with Kafka, Node.js, AWS, and Vue.js; delivered 7+ new features with great client feedback.
 - 🧬 Migrated and indexed S3 binary data with context-switching & GSI, slashing query latency by 75%.
 - ⚙️ Built a CI/CD pipeline (Docker, GitHub Actions, ECS/ECR, S3) that reduced hotfix deployment time by 75%.
+- 🧪 Developed Selenium integration tests across 5+ microservices, saving 40% manual QA effort with 99% accuracy using New Relic alerts.
+- 🧠 Mentored new developers to be project-ready and high-performing within weeks.
+
+---
+
+### 🌟 Achievements
+
+- 🏆 **Winner**, Triathlon Hackathon – *Top among 5000+ participants*  
+- 🥈 **Finalist**, MATH-A-THON-FS-2019 – *Top 20 of 200+ university teams*
+- 🎯 Solved **1000+ coding problems** across platforms | **AIR 6 – CodeChef Long Challenge (Oct 2022)**
 
 ---
 
@@ -91,7 +96,7 @@ A buzzing accommodation platform inspired by bees, providing a smooth UX for hos
 
 ## 🧠 Fun Fact
 
-> _"I don't get lucky. I make my own luck."_ — Harvey Specter, *Suits*
+> _"When you’re backed against the wall, break the goddamn thing down."_ — Harvey Specter, *Suits*
 
 > _"Chaos isn’t a pit. Chaos is a ladder."_ — Littlefinger, *Game of Thrones*
 
