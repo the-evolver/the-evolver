@@ -10,9 +10,6 @@
 
 ---
 
-> _"When you play the game of code, you either deploy or you debug."_  
-> — adapted from Cersei Lannister
-
 ## 🚀 About Me
 
 Passionate Software Engineer with experience in building scalable backend systems and intuitive frontends. I specialize in JavaScript, Java, AWS, and microservices, and thrive on solving complex engineering problems. I prioritize clean architecture, high performance, and maintainable, reliable code.
@@ -98,26 +95,31 @@ A buzzing accommodation platform inspired by bees, providing a smooth UX for hos
 - 🛠️ **Tech:** React.js, Next.js, Tailwind CSS, Prisma, MongoDB, NextAuth
 - 🐝 Custom-designed to emulate the collaborative nature of hives
 
+---
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=the-evolver&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+
+---
+
+## 💡 Code, Coffee, and Comebacks( Random 3am quotes 😊 )
+
+> _"I'm not a developer. I'm a closer — I close bugs."_ — Harvey Specter, *Suits*
+
+> _"You either die debugging or live long enough to see yourself cause the bug."_ — Two-Face, *Game of Thrones*
+
+> _"They say 'Winter is coming.' I say, 'So is my pull request."_ — Jon Snow, *Game of Thrones*
 
 ---
 
 ## 🌐 Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/atulcse/)  
-- [Portfolio](https://the-evolver.github.io/)  
-- 📧 contacts.atulsharma@gmail.com  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atulcse/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=firefox&logoColor=white)](https://the-evolver.github.io/)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:contacts.atulsharma@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-black.svg?logo=LeetCode&logoColor=yellow)](https://leetcode.com/u/recursive_coder/)
 
 ---
-
-## 🧠 Fun Fact
-
-> _"When you’re backed against the wall, break the goddamn thing down."_ — Harvey Specter, *Suits*
-
-> _"Chaos isn’t a pit. Chaos is a ladder."_ — Littlefinger, *Game of Thrones*
-
----
-
-
 <!---
 the-evolver/the-evolver is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
