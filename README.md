@@ -119,7 +119,7 @@ A buzzing accommodation platform inspired by bees, providing a smooth UX for hos
 ---
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=the-evolver&theme=dark&no-frame=false&no-bg=false&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=the-evolver&theme=discord&no-frame=false&no-bg=false&margin-w=4)
 
 ---
 
