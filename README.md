@@ -152,38 +152,50 @@ Currently at **Compro Technologies**, shipping distributed systems, slashing que
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🔹 Smart Contact Manager</h3>
+      <h3 align="center">⚡ Distributed Rate Limiter</h3>
       <p align="center">
-        <a href="https://github.com/the-evolver/smart_contact_manager">
+        <a href="https://github.com/the-evolver/Distributed-rate-limiter-service">
           <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
       </p>
-      <p>Enterprise-grade contact management with <b>Spring Security</b>, CSRF protection, URL-level authorization, and MVC architecture.</p>
+      <p>Production-grade rate limiting service with <b>Token Bucket</b> and <b>Sliding Window</b> algorithms. Features atomic Redis Lua scripts, Resilience4j circuit breaker with Caffeine fallback, Spring AOP <code>@RateLimit</code> annotation, and K8s deployment configs.</p>
       <p>
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🔹 AirBnBee</h3>
+      <h3 align="center">🔔 Notification Engine</h3>
       <p align="center">
-        <a href="https://github.com/the-evolver/AirBnBee">
+        <a href="https://github.com/the-evolver/notification-engine">
           <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
       </p>
-      <p>Full-stack accommodation platform with server-side rendering, OAuth, and Prisma ORM on MongoDB.</p>
+      <p>High-throughput notification system delivering <b>50,000+ notifications/hour</b> across Email, SMS, and Push. Priority-tiered Kafka topics, Redis idempotency, exponential backoff with DLQ, full delivery state machine, and Prometheus metrics.</p>
       <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
       </p>
     </td>
   </tr>
 </table>
 
-> 📌 *More projects including a Distributed Rate Limiter and High-throughput Notification Engine are in active development.*
+<details>
+<summary><b>Other Projects</b></summary>
+<br/>
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [Smart Contact Manager](https://github.com/the-evolver/smart_contact_manager) | Enterprise contact management with Spring Security, CSRF, and MVC | Java, Spring Boot, Hibernate |
+| [AirBnBee](https://github.com/the-evolver/AirBnBee) | Full-stack accommodation platform with SSR and OAuth | Next.js, React, MongoDB, Prisma |
+
+</details>
 
 ---
 
@@ -209,7 +221,7 @@ Currently at **Compro Technologies**, shipping distributed systems, slashing que
 
 ## 🎯 What I'm Up To
 
-- 🔨 **Building:** Distributed Rate Limiter & High-throughput Notification Engine
+- 🔨 **Building:** Backend systems designed for scale — rate limiting, notification pipelines, event-driven architectures
 - 📚 **Studying:** System Design (Alex Xu Vol. 1) + Advanced DSA
 - 🎯 **Targeting:** High-impact backend roles at top product companies
 - 🧠 **Exploring:** Machine Learning fundamentals with a fintech lens
