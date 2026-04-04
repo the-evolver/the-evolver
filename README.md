@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=80&lines=AIR+6+%E2%80%94+CodeChef+%7C+Global+Rank+51+%E2%80%94+LeetCode;1000%2B+Problems+Solved+%C2%B7+336+Hard+Problems;Building+Distributed+Systems+at+Scale" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=70&lines=AIR+6+%E2%80%94+CodeChef+%7C+Global+Rank+51+%E2%80%94+LeetCode;1000%2B+Problems+Solved+%C2%B7+336+Hard+Problems;Building+Distributed+Systems+at+Scale" alt="Typing SVG" />
   </a>
 </p>
 
@@ -151,9 +151,7 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
 
 ## 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
+<div align="center">
       <h3 align="center">⚡ Distributed Rate Limiter</h3>
       <img width="100%" src="https://raw.githubusercontent.com/the-evolver/the-evolver/main/footer-rate-limiter.svg" />
       <p align="center">
@@ -169,8 +167,7 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
       </p>
-    </td>
-    <td width="50%" valign="top">
+      ---
       <h3 align="center">🔔 Notification Engine</h3>
       <img width="100%" src="https://raw.githubusercontent.com/the-evolver/the-evolver/main/notification-engine-animation.svg" />
       <p align="center">
@@ -186,9 +183,7 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
       </p>
-    </td>
-  </tr>
-</table>
+   </div>
 
 <details>
 <summary><b>Other Projects</b></summary>
