@@ -157,7 +157,7 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">⚡ Distributed Rate Limiter</h3>
-      <img width="100%" src="https://raw.githubusercontent.com/the-evolver/the-evolver/main/rate-limiter.svg" />
+      <img width="100%" src="https://raw.githubusercontent.com/the-evolver/the-evolver/main/footer-rate-limiter.svg" />
       <p align="center">
         <a href="https://github.com/the-evolver/Distributed-rate-limiter-service">
           <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
