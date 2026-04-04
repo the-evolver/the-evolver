@@ -232,16 +232,6 @@ JK Institute of Applied Physics & Technology · 2019 – 2023
 
 ---
 
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=the-evolver&theme=gitdimmed&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=6" alt="GitHub Trophies for the-evolver" />
-  </a>
-</p>
-
----
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=the-evolver&color=1f6feb&style=flat-square&label=Profile+Views" />
 </p>
