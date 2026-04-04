@@ -155,7 +155,7 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h3 align="center">⚡ Distributed Rate Limiter</h3>
       <img width="100%" src="https://raw.githubusercontent.com/the-evolver/the-evolver/main/footer-rate-limiter.svg" />
       <p align="center">
@@ -172,7 +172,7 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
       <h3 align="center">🔔 Notification Engine</h3>
       <p align="center">
         <a href="https://github.com/the-evolver/notification-engine">
