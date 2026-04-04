@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,50:161b22,100:1f6feb&height=200&section=header&text=Atul%20Sharma&fontSize=50&fontColor=ffffff&fontAlignY=40&desc=Software%20Engineer%20%7C%20Systems%20Thinker%20%7C%20Problem%20Solver&descSize=17&descColor=8b949e&descAlignY=62&animation=fadeIn" />
+<img width="100%" src="https://raw.githubusercontent.com/the-evolver/the-evolver/main/header-animation.svg" />
 
 <br/>
 
