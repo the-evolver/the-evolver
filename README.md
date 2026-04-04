@@ -180,12 +180,13 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
           <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
       </p>
-- Built a high-throughput notification system processing **50,000+ notifications/hour** across Email, SMS, and Push channels using **Kafka-based fanout architecture**.
-- Designed **priority-tiered Kafka topics** to ensure differentiated delivery guarantees and optimized processing under load.
-- Eliminated duplicate deliveries via **Redis-backed idempotency layer**, ensuring exactly-once processing semantics at scale.
-- Modeled a robust **delivery state machine (QUEUED → DISPATCHED → DELIVERED/FAILED)** with persistent tracking in MySQL and **sub-50ms read latency via Redis caching**.
-- Implemented **fault-tolerant retry mechanisms** using exponential backoff and **Dead Letter Queues (DLQ)** for failed events.
-- Decoupled notification producers and consumers, improving system scalability and enabling independent service evolution.
+<ul align="left">
+<li>Built a high-throughput notification system processing **50,000+ notifications/hour** across Email, SMS, and Push channels using **Kafka-based fanout architecture**.</li>
+<li>Designed **priority-tiered Kafka topics** to ensure differentiated delivery guarantees and optimized processing under load.</li>
+<li>Eliminated duplicate deliveries via **Redis-backed idempotency layer**, ensuring exactly-once processing semantics at scale.</li>
+<li>Modeled a robust **delivery state machine (QUEUED → DISPATCHED → DELIVERED/FAILED)** with persistent tracking in MySQL and **sub-50ms read latency via Redis caching**.</li>
+<li>Implemented **fault-tolerant retry mechanisms** using exponential backoff and **Dead Letter Queues (DLQ)** for failed events.</li>
+<li>Decoupled notification producers and consumers, improving system scalability and enabling independent service evolution.</li>
       <p>
         <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
