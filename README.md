@@ -159,7 +159,9 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
           <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
       </p>
-      <p>Production-grade rate limiting service with <b>Token Bucket</b> and <b>Sliding Window</b> algorithms, switchable via config. Atomic Redis Lua scripts eliminate race conditions — benchmarked at <b>12,000 req/sec with sub-5ms p99 latency</b>. Features Spring AOP <code>@RateLimit</code> annotation, Resilience4j circuit breaker with Caffeine fallback, and K8s deployment configs.</p>
+      - Production-grade rate limiting service with <b>Token Bucket</b> and <b>Sliding Window</b> algorithms, switchable via config. 
+      - Atomic Redis Lua scripts eliminate race conditions — benchmarked at <b>12,000 req/sec with sub-5ms p99 latency</b>.
+      - Features Spring AOP <code>@RateLimit</code> annotation, Resilience4j circuit breaker with Caffeine fallback, and K8s deployment configs.</p>
       <p>
         <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
@@ -167,7 +169,6 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
       </p>
-      ---
       <h3 align="center">🔔 Notification Engine</h3>
       <img width="100%" src="https://raw.githubusercontent.com/the-evolver/the-evolver/main/notification-engine-animation.svg" />
       <p align="center">
@@ -175,7 +176,10 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
           <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
       </p>
-      <p>High-throughput notification system processing <b>50,000+ notifications/hour</b> across Email, SMS, and Push via Kafka fanout with priority-tiered topics. Redis-backed idempotent deduplication eliminates duplicate deliveries. Full delivery state machine (QUEUED → DISPATCHED → DELIVERED/FAILED) with MySQL persistence and Redis cache for <b>&lt;50ms read latency</b>. Exponential backoff with DLQ routing.</p>
+      - High-throughput notification system processing <b>50,000+ notifications/hour</b> across Email, SMS, and Push via Kafka fanout with priority-tiered topics.
+      - Redis-backed idempotent deduplication eliminates duplicate deliveries. 
+      - Full delivery state machine (QUEUED → DISPATCHED → DELIVERED/FAILED) with MySQL persistence and Redis cache for <b>&lt;50ms read latency</b>.
+      - Exponential backoff with DLQ routing.
       <p>
         <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
