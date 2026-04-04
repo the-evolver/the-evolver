@@ -8,8 +8,6 @@
   </a>
 </p>
 
-<br/>
-
 <p align="center">
   <a href="https://www.linkedin.com/in/atulcse/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
   <a href="https://the-evolver.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox-browser&logoColor=white" /></a>&nbsp;
@@ -25,7 +23,7 @@ Full-stack engineer with a strong backend focus — I enjoy building systems tha
 
 I'm also a competitive programmer at heart. **All India Rank 6** on CodeChef, **Global Rank 51** in LeetCode Weekly Contests, and **336 hard problems** solved. I like thinking through problems from first principles — invariants, edge cases, and complexity — before writing a single line.
 
-Currently at **Compro Technologies**, where I work on distributed systems, have helped reduce query latencies by 75%, and enjoy mentoring newer engineers. I'm now looking for high-impact roles where I can contribute to systems built for scale.
+Currently at **Compro Technologies**, where I work on distributed systems, have helped cut query latencies from ~800ms to under 20ms, and enjoy mentoring newer engineers. I'm now looking for high-impact roles where I can contribute to systems built for scale.
 
 ---
 
@@ -39,15 +37,15 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
     </td>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/Global_51-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /><br/>
-      <sub><b>Weekly Contest</b></sub>
+      <sub><b>Weekly Contest 472</b></sub>
     </td>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/1000+-Problems_Solved-00b8a3?style=for-the-badge" /><br/>
       <sub><b>336 Hard Problems</b></sub>
     </td>
     <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/🏆_Winner-Hackathon-FF6B6B?style=for-the-badge" /><br/>
-      <sub><b>Top of 5000+ participants</b></sub>
+      <img src="https://img.shields.io/badge/Top_11%25-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /><br/>
+      <sub><b>Rating 1724+</b></sub>
     </td>
   </tr>
 </table>
@@ -72,10 +70,12 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
 <br/>
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![KSQLDB](https://img.shields.io/badge/ksqlDB-D32F2F?style=flat-square&logo=apachekafka&logoColor=white)
 ![Microservices](https://img.shields.io/badge/Microservices-FF5733?style=flat-square)
 
 </details>
@@ -96,24 +96,24 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
 <br/>
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 </details>
 
 <details open>
-<summary><b>DevOps & Cloud</b></summary>
+<summary><b>Cloud & DevOps</b></summary>
 <br/>
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![ECS](https://img.shields.io/badge/ECS-FF9900?style=flat-square&logo=amazonecs&logoColor=white)
+![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 
 </details>
 
@@ -121,9 +121,10 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
 <summary><b>Testing & Observability</b></summary>
 <br/>
 
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-78A641?style=flat-square)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-![Mocha](https://img.shields.io/badge/Mocha-8D6748?style=flat-square&logo=mocha&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
 ![New Relic](https://img.shields.io/badge/New_Relic-1CE783?style=flat-square&logo=newrelic&logoColor=black)
 
 </details>
@@ -135,19 +136,16 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
 > **Software Engineer** · New Delhi · Jul 2023 – Present
 
 **Distributed Systems & Data Migration**
-- Led migration from S3 to DynamoDB — designed schemas, built custom scripts, and optimized with GSI indexing. Reduced **query latency by 75%** and improved response times by 40% through Kafka integration.
-- Managed **10+ environment-specific AWS deployments** across VPCs, bringing deployment cycles down by 30%.
+- Engineered a resumable distributed pipeline to migrate **10M+ S3 objects** across storage tiers. Redesigned DynamoDB access patterns using GSIs with composite sort keys, reducing average lookup latency from **~800ms to under 20ms** and cutting per-query read cost by ~40%. Implemented checkpointing for idempotent re-runs without data duplication.
+- Architected a **Kafka-based event streaming pipeline** with dedicated topics per metadata type and manually committed offsets for at-least-once delivery. Decoupled 4 tightly coupled downstream services, improving data freshness by 30%.
 
-**Frontend & Accessibility**
-- Delivered performant features in Vue, React, and Tailwind. Led Module Federation integration for seamless cross-app module sharing.
-- Introduced an accessibility checklist that resolved **50+ usability issues**, contributing to 80%+ zero-bug QA delivery rate.
+**Auth, APIs & Backend**
+- Designed **JWT RS256 authentication and RBAC** spanning 6+ microservices — MySQL for role storage, Redis cache for sub-10ms permission lookups. Passed a third-party security compliance audit with zero critical findings on first submission.
+- Built REST APIs and transactional backend workflows for a subscription-style assignment system with idempotent state transitions and audit logging. Feature adoption grew **20% within two quarters**.
 
-**Reliability & DevOps**
-- Diagnosed and fixed a **P0 production bug** that had persisted through 10+ prior attempts — required deep root-cause analysis across services.
-- Built a CI/CD pipeline (Docker → GitHub Actions → ECS/ECR) that reduced hotfix deployment time by **75%**.
-- Developed Selenium integration tests across 5+ microservices, saving 40% manual QA effort.
-
-**Mentorship** — Helped onboard new engineers to project-readiness within weeks.
+**CI/CD & Quality**
+- Replaced AWS CodePipeline with a fully automated **GitHub Actions pipeline** using Docker, ECS/ECR rolling deployments, and S3 artifact caching. Cut hotfix deployment time from **~4 hours to under 60 minutes** and eliminated all manual deployment steps.
+- Grew automated test coverage from **under 30% to 87%** across unit and E2E layers (JUnit 5, Mockito, Jest). Established a CI coverage threshold gate, directly reducing production bug reports by 40% over two release cycles.
 
 ---
 
@@ -163,7 +161,7 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
           <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
       </p>
-      <p>Production-grade rate limiting service with <b>Token Bucket</b> and <b>Sliding Window</b> algorithms. Features atomic Redis Lua scripts, Resilience4j circuit breaker with Caffeine fallback, Spring AOP <code>@RateLimit</code> annotation, and K8s deployment configs.</p>
+      <p>Production-grade rate limiting service with <b>Token Bucket</b> and <b>Sliding Window</b> algorithms, switchable via config. Atomic Redis Lua scripts eliminate race conditions — benchmarked at <b>12,000 req/sec with sub-5ms p99 latency</b>. Features Spring AOP <code>@RateLimit</code> annotation, Resilience4j circuit breaker with Caffeine fallback, and K8s deployment configs.</p>
       <p>
         <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
@@ -180,7 +178,7 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
           <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
       </p>
-      <p>High-throughput notification system delivering <b>50,000+ notifications/hour</b> across Email, SMS, and Push. Priority-tiered Kafka topics, Redis idempotency, exponential backoff with DLQ, full delivery state machine, and Prometheus metrics.</p>
+      <p>High-throughput notification system processing <b>50,000+ notifications/hour</b> across Email, SMS, and Push via Kafka fanout with priority-tiered topics. Redis-backed idempotent deduplication eliminates duplicate deliveries. Full delivery state machine (QUEUED → DISPATCHED → DELIVERED/FAILED) with MySQL persistence and Redis cache for <b>&lt;50ms read latency</b>. Exponential backoff with DLQ routing.</p>
       <p>
         <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
@@ -216,13 +214,6 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
   <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-evolver&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
 </p>
 
-<!-- Snake contribution animation — requires GitHub Action setup (instructions below) -->
-<!--
-<p align="center">
-  <img src="https://raw.githubusercontent.com/the-evolver/the-evolver/output/github-snake-dark.svg" alt="Snake animation" />
-</p>
--->
-
 ---
 
 ## 🎯 What I'm Up To
@@ -231,6 +222,13 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
 - 📚 **Studying:** System Design (Alex Xu Vol. 1) + Advanced DSA
 - 🎯 **Targeting:** High-impact backend roles at top product companies
 - 🧠 **Exploring:** Machine Learning fundamentals with a fintech lens
+
+---
+
+## 🎓 Education
+
+**B.Tech in Computer Science & Engineering** · CGPA: **9.2**
+JK Institute of Applied Physics & Technology · 2019 – 2023
 
 ---
 
