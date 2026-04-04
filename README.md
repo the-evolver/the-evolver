@@ -239,7 +239,7 @@ JK Institute of Applied Physics & Technology · 2019 – 2023
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=the-evolver&color=1f6feb&style=flat-square&label=Profile+Views" />
+  <img src="https://komarev.com/ghpvc/?username=the-evolver&color=1f6feb&style=flat-square&label=Profile+Views&base=20000" />
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,7&height=120&section=footer&animation=twinkling" />
