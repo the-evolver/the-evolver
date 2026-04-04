@@ -33,7 +33,7 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
   <tr>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/AIR_6-CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" /><br/>
-      <sub><b>Long Challenge · Oct '22</b></sub>
+      <sub><b>Long Challenge </b></sub>
     </td>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/Global_51-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /><br/>
