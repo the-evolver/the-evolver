@@ -214,11 +214,7 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
 
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=the-evolver&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=the-evolver&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
-</p>
-
-<p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-evolver&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
+ 
 </p>
 
 ---
