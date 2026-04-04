@@ -1,15 +1,19 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Atul%20Sharma&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineer%20%7C%20Systems%20Thinker%20%7C%20Problem%20Solver&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,50:161b22,100:1f6feb&height=200&section=header&text=Atul%20Sharma&fontSize=50&fontColor=ffffff&fontAlignY=40&desc=Software%20Engineer%20%7C%20Systems%20Thinker%20%7C%20Problem%20Solver&descSize=17&descColor=8b949e&descAlignY=62&animation=fadeIn" />
+
+<br/>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=AIR+6+%E2%80%94+CodeChef+Long+Challenge;Global+Rank+51+%E2%80%94+LeetCode+Weekly+Contest;1000%2B+Problems+Solved+%7C+336+Hards+Crushed;Building+Distributed+Systems+%40+Scale" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=80&lines=AIR+6+%E2%80%94+CodeChef+%7C+Global+Rank+51+%E2%80%94+LeetCode;1000%2B+Problems+Solved+%C2%B7+336+Hard+Problems;Building+Distributed+Systems+at+Scale" alt="Typing SVG" />
   </a>
 </p>
 
+<br/>
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/atulcse/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://the-evolver.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox-browser&logoColor=white" /></a>
-  <a href="https://leetcode.com/u/recursive_coder/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
+  <a href="https://www.linkedin.com/in/atulcse/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
+  <a href="https://the-evolver.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox-browser&logoColor=white" /></a>&nbsp;
+  <a href="https://leetcode.com/u/recursive_coder/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>&nbsp;
   <a href="mailto:contacts.atulsharma@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
@@ -17,21 +21,21 @@
 
 ## `> whoami`
 
-Backend-heavy full-stack engineer who writes systems that don't break at 3 AM. I build with **Java, Spring Boot, Kafka, AWS, and Node.js** — and I debug what others can't.
+Full-stack engineer with a strong backend focus — I enjoy building systems that hold up under pressure. My day-to-day revolves around **Java, Spring Boot, Kafka, AWS, and Node.js**, and I find real satisfaction in diagnosing tricky production issues.
 
-Outside of work, I compete. **All India Rank 6** on CodeChef. **Global Rank 51** in LeetCode Weekly Contests. **336 hard problems** solved. I don't just write code — I think in invariants, edge cases, and time complexity before my IDE opens.
+I'm also a competitive programmer at heart. **All India Rank 6** on CodeChef, **Global Rank 51** in LeetCode Weekly Contests, and **336 hard problems** solved. I like thinking through problems from first principles — invariants, edge cases, and complexity — before writing a single line.
 
-Currently at **Compro Technologies**, shipping distributed systems, slashing query latencies by 75%, and mentoring engineers. Actively exploring high-impact roles where scale meets craftsmanship.
+Currently at **Compro Technologies**, where I work on distributed systems, have helped reduce query latencies by 75%, and enjoy mentoring newer engineers. I'm now looking for high-impact roles where I can contribute to systems built for scale.
 
 ---
 
-## 🏆 Competitive Edge
+## 🏆 Competitive Programming
 
 <table>
   <tr>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/AIR_6-CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" /><br/>
-      <sub><b>Long Challenge Oct '22</b></sub>
+      <sub><b>Long Challenge · Oct '22</b></sub>
     </td>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/Global_51-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /><br/>
@@ -39,18 +43,18 @@ Currently at **Compro Technologies**, shipping distributed systems, slashing que
     </td>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/1000+-Problems_Solved-00b8a3?style=for-the-badge" /><br/>
-      <sub><b>336 Hards</b></sub>
+      <sub><b>336 Hard Problems</b></sub>
     </td>
     <td align="center" width="25%">
       <img src="https://img.shields.io/badge/🏆_Winner-Hackathon-FF6B6B?style=for-the-badge" /><br/>
-      <sub><b>Top of 5000+</b></sub>
+      <sub><b>Top of 5000+ participants</b></sub>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🛠️ Tech Arsenal
+## 🛠️ Tech Stack
 
 <details open>
 <summary><b>Languages</b></summary>
@@ -131,19 +135,19 @@ Currently at **Compro Technologies**, shipping distributed systems, slashing que
 > **Software Engineer** · New Delhi · Jul 2023 – Present
 
 **Distributed Systems & Data Migration**
-- Migrated S3 → DynamoDB with custom schema design, context-switching indexing, and GSI optimization — **slashed query latency by 75%** and response times by 40% via Kafka integration.
-- Orchestrated **10+ environment-specific AWS deployments** across VPCs, cutting deployment cycles by 30%.
+- Led migration from S3 to DynamoDB — designed schemas, built custom scripts, and optimized with GSI indexing. Reduced **query latency by 75%** and improved response times by 40% through Kafka integration.
+- Managed **10+ environment-specific AWS deployments** across VPCs, bringing deployment cycles down by 30%.
 
 **Frontend & Accessibility**
-- Shipped performant features in Vue, React, and Tailwind; led Module Federation integration enabling seamless cross-app module sharing.
-- Introduced accessibility standards, resolving **50+ usability issues** → 80%+ zero-bug QA delivery rate.
+- Delivered performant features in Vue, React, and Tailwind. Led Module Federation integration for seamless cross-app module sharing.
+- Introduced an accessibility checklist that resolved **50+ usability issues**, contributing to 80%+ zero-bug QA delivery rate.
 
 **Reliability & DevOps**
-- **Resolved a P0 production bug** that survived 10+ prior fix attempts by other engineers.
-- Built CI/CD pipeline (Docker → GitHub Actions → ECS/ECR) reducing hotfix deployment time by **75%**.
-- Created Selenium integration tests across 5+ microservices, saving 40% manual QA effort.
+- Diagnosed and fixed a **P0 production bug** that had persisted through 10+ prior attempts — required deep root-cause analysis across services.
+- Built a CI/CD pipeline (Docker → GitHub Actions → ECS/ECR) that reduced hotfix deployment time by **75%**.
+- Developed Selenium integration tests across 5+ microservices, saving 40% manual QA effort.
 
-**Mentorship** — Onboarded new engineers to project-readiness within weeks.
+**Mentorship** — Helped onboard new engineers to project-readiness within weeks.
 
 ---
 
@@ -231,7 +235,9 @@ Currently at **Compro Technologies**, shipping distributed systems, slashing que
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=the-evolver&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&column=7" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=the-evolver&theme=gitdimmed&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=6" alt="GitHub Trophies for the-evolver" />
+  </a>
 </p>
 
 ---
@@ -240,4 +246,4 @@ Currently at **Compro Technologies**, shipping distributed systems, slashing que
   <img src="https://komarev.com/ghpvc/?username=the-evolver&color=1f6feb&style=flat-square&label=Profile+Views" />
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=100&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,50:161b22,100:1f6feb&height=80&section=footer" />
