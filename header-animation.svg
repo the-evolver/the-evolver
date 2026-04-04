@@ -1,0 +1,399 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <!-- Gradient background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#0f1923"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+
+    <!-- Glow effects -->
+    <filter id="glow-blue">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-soft">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Node gradient fills -->
+    <linearGradient id="node-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1f6feb"/>
+      <stop offset="100%" style="stop-color:#388bfd"/>
+    </linearGradient>
+    <linearGradient id="node-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#238636"/>
+      <stop offset="100%" style="stop-color:#2ea043"/>
+    </linearGradient>
+    <linearGradient id="node-red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#da3633"/>
+      <stop offset="100%" style="stop-color:#f85149"/>
+    </linearGradient>
+    <linearGradient id="node-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8957e5"/>
+      <stop offset="100%" style="stop-color:#a371f7"/>
+    </linearGradient>
+    <linearGradient id="node-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d29922"/>
+      <stop offset="100%" style="stop-color:#e3b341"/>
+    </linearGradient>
+    <linearGradient id="node-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1b7c83"/>
+      <stop offset="100%" style="stop-color:#39d353"/>
+    </linearGradient>
+    <linearGradient id="title-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="50%" style="stop-color:#a371f7"/>
+      <stop offset="100%" style="stop-color:#58a6ff"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    /* ── Grid background animation ── */
+    @keyframes gridPulse {
+      0%, 100% { opacity: 0.04; }
+      50% { opacity: 0.08; }
+    }
+    .grid-line { stroke: #30363d; stroke-width: 0.5; animation: gridPulse 6s ease-in-out infinite; }
+
+    /* ── Connection lines ── */
+    @keyframes drawLine {
+      0% { stroke-dashoffset: 300; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes linePulse {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 0.5; }
+    }
+    .conn-line {
+      stroke: #30363d;
+      stroke-width: 1.5;
+      fill: none;
+      stroke-dasharray: 8 4;
+      animation: linePulse 3s ease-in-out infinite;
+    }
+    .conn-line-active {
+      stroke: #1f6feb;
+      stroke-width: 1;
+      fill: none;
+      opacity: 0.4;
+      stroke-dasharray: 300;
+      stroke-dashoffset: 300;
+      animation: drawLine 3s ease-out forwards;
+    }
+
+    /* ── Data packets flowing along lines ── */
+    @keyframes flowRight {
+      0% { transform: translateX(-30px); opacity: 0; }
+      15% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { transform: translateX(30px); opacity: 0; }
+    }
+    @keyframes flowLeft {
+      0% { transform: translateX(30px); opacity: 0; }
+      15% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { transform: translateX(-30px); opacity: 0; }
+    }
+
+    /* ── Node pulse animations ── */
+    @keyframes nodePulse {
+      0%, 100% { transform: scale(1); opacity: 0.9; }
+      50% { transform: scale(1.05); opacity: 1; }
+    }
+    @keyframes nodeGlow {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 0.3; }
+    }
+    @keyframes nodeAppear {
+      0% { transform: scale(0); opacity: 0; }
+      60% { transform: scale(1.1); opacity: 1; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .node { animation: nodePulse 4s ease-in-out infinite; }
+    .node-d1 { animation: nodeAppear 0.8s ease-out 0.2s both, nodePulse 4s ease-in-out 1s infinite; }
+    .node-d2 { animation: nodeAppear 0.8s ease-out 0.5s both, nodePulse 4s ease-in-out 1.3s infinite; }
+    .node-d3 { animation: nodeAppear 0.8s ease-out 0.8s both, nodePulse 4s ease-in-out 1.6s infinite; }
+    .node-d4 { animation: nodeAppear 0.8s ease-out 1.1s both, nodePulse 4s ease-in-out 1.9s infinite; }
+    .node-d5 { animation: nodeAppear 0.8s ease-out 1.4s both, nodePulse 4s ease-in-out 2.2s infinite; }
+    .node-d6 { animation: nodeAppear 0.8s ease-out 1.7s both, nodePulse 4s ease-in-out 2.5s infinite; }
+
+    /* ── Ring pulse around nodes ── */
+    @keyframes ringExpand {
+      0% { r: 24; opacity: 0.5; }
+      100% { r: 38; opacity: 0; }
+    }
+    .node-ring {
+      fill: none;
+      stroke-width: 1;
+      animation: ringExpand 3s ease-out infinite;
+    }
+
+    /* ── Central text ── */
+    @keyframes titleFadeIn {
+      0% { opacity: 0; transform: translateY(10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes subtitleFadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 0.7; }
+    }
+    @keyframes cursorBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .title-text {
+      font-family: 'Segoe UI', Ubuntu, 'DejaVu Sans', sans-serif;
+      font-weight: 700;
+      font-size: 46px;
+      fill: #e6edf3;
+      animation: titleFadeIn 1.2s ease-out 0.3s both;
+    }
+    .subtitle-text {
+      font-family: 'Segoe UI', Ubuntu, 'DejaVu Sans', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      fill: #8b949e;
+      animation: subtitleFadeIn 1.5s ease-out 0.8s both;
+    }
+    .cursor {
+      fill: #58a6ff;
+      animation: cursorBlink 1.2s step-end infinite;
+    }
+
+    /* ── Node labels ── */
+    .node-label {
+      font-family: 'Segoe UI', Ubuntu, 'DejaVu Sans', sans-serif;
+      font-weight: 600;
+      font-size: 9px;
+      fill: #e6edf3;
+      text-anchor: middle;
+    }
+    .node-sublabel {
+      font-family: 'Segoe UI', Ubuntu, 'DejaVu Sans', sans-serif;
+      font-weight: 400;
+      font-size: 7px;
+      fill: #8b949e;
+      text-anchor: middle;
+    }
+
+    /* ── Floating particles ── */
+    @keyframes float1 {
+      0%, 100% { transform: translate(0, 0); opacity: 0.3; }
+      25% { transform: translate(8px, -12px); opacity: 0.6; }
+      50% { transform: translate(-5px, -20px); opacity: 0.3; }
+      75% { transform: translate(10px, -8px); opacity: 0.5; }
+    }
+    @keyframes float2 {
+      0%, 100% { transform: translate(0, 0); opacity: 0.2; }
+      33% { transform: translate(-10px, -15px); opacity: 0.5; }
+      66% { transform: translate(6px, -10px); opacity: 0.3; }
+    }
+    @keyframes float3 {
+      0%, 100% { transform: translate(0, 0); opacity: 0.4; }
+      50% { transform: translate(12px, -18px); opacity: 0.15; }
+    }
+    .particle { fill: #58a6ff; }
+    .p1 { animation: float1 8s ease-in-out infinite; }
+    .p2 { animation: float2 10s ease-in-out infinite; }
+    .p3 { animation: float3 7s ease-in-out infinite; }
+
+    /* ── Data packet dots ── */
+    @keyframes packet1 {
+      0% { opacity: 0; }
+      5% { opacity: 1; }
+      95% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    .data-packet {
+      fill: #58a6ff;
+      filter: url(#glow-soft);
+    }
+  </style>
+
+  <!-- ══════ Background ══════ -->
+  <rect width="1200" height="400" fill="url(#bg)"/>
+
+  <!-- ══════ Subtle grid ══════ -->
+  <g class="grid-line">
+    <line x1="0" y1="50" x2="1200" y2="50"/>
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="350" x2="1200" y2="350"/>
+    <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="500" y1="0" x2="500" y2="400"/>
+    <line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="700" y1="0" x2="700" y2="400"/>
+    <line x1="800" y1="0" x2="800" y2="400"/>
+    <line x1="900" y1="0" x2="900" y2="400"/>
+    <line x1="1000" y1="0" x2="1000" y2="400"/>
+    <line x1="1100" y1="0" x2="1100" y2="400"/>
+  </g>
+
+  <!-- ══════ Connection lines between nodes ══════ -->
+  <!-- API Gateway → Kafka -->
+  <path d="M 185 120 Q 350 80 475 155" class="conn-line" style="animation-delay: 0s;"/>
+  <path d="M 185 120 Q 350 80 475 155" class="conn-line-active" style="animation-delay: 0.5s;"/>
+  <!-- Kafka → Redis -->
+  <path d="M 540 155 Q 620 100 715 140" class="conn-line" style="animation-delay: 0.5s;"/>
+  <path d="M 540 155 Q 620 100 715 140" class="conn-line-active" style="animation-delay: 1s;"/>
+  <!-- Kafka → MySQL -->
+  <path d="M 510 190 Q 560 280 660 305" class="conn-line" style="animation-delay: 1s;"/>
+  <path d="M 510 190 Q 560 280 660 305" class="conn-line-active" style="animation-delay: 1.5s;"/>
+  <!-- API Gateway → Spring Boot -->
+  <path d="M 155 155 Q 140 250 170 310" class="conn-line" style="animation-delay: 0.3s;"/>
+  <path d="M 155 155 Q 140 250 170 310" class="conn-line-active" style="animation-delay: 0.8s;"/>
+  <!-- Redis → AWS -->
+  <path d="M 765 155 Q 900 110 995 145" class="conn-line" style="animation-delay: 1.2s;"/>
+  <path d="M 765 155 Q 900 110 995 145" class="conn-line-active" style="animation-delay: 1.7s;"/>
+  <!-- MySQL → AWS -->
+  <path d="M 720 305 Q 860 320 990 280" class="conn-line" style="animation-delay: 1.5s;"/>
+  <path d="M 720 305 Q 860 320 990 280" class="conn-line-active" style="animation-delay: 2s;"/>
+  <!-- Spring Boot → Kafka -->
+  <path d="M 215 310 Q 350 340 475 190" class="conn-line" style="animation-delay: 0.8s;"/>
+  <path d="M 215 310 Q 350 340 475 190" class="conn-line-active" style="animation-delay: 1.3s;"/>
+
+  <!-- ══════ Data packets (small dots traveling along connections) ══════ -->
+  <circle r="3" class="data-packet">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="0.5s">
+      <mpath href="#path-api-kafka"/>
+    </animateMotion>
+  </circle>
+  <path id="path-api-kafka" d="M 185 120 Q 350 80 475 155" fill="none" stroke="none"/>
+
+  <circle r="3" class="data-packet">
+    <animateMotion dur="3.5s" repeatCount="indefinite" begin="1.5s">
+      <mpath href="#path-kafka-redis"/>
+    </animateMotion>
+  </circle>
+  <path id="path-kafka-redis" d="M 540 155 Q 620 100 715 140" fill="none" stroke="none"/>
+
+  <circle r="3" class="data-packet">
+    <animateMotion dur="4.5s" repeatCount="indefinite" begin="2s">
+      <mpath href="#path-kafka-mysql"/>
+    </animateMotion>
+  </circle>
+  <path id="path-kafka-mysql" d="M 510 190 Q 560 280 660 305" fill="none" stroke="none"/>
+
+  <circle r="2.5" class="data-packet" style="fill: #2ea043;">
+    <animateMotion dur="3s" repeatCount="indefinite" begin="1s">
+      <mpath href="#path-sb-kafka"/>
+    </animateMotion>
+  </circle>
+  <path id="path-sb-kafka" d="M 215 310 Q 350 340 475 190" fill="none" stroke="none"/>
+
+  <circle r="2.5" class="data-packet" style="fill: #a371f7;">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="2.5s">
+      <mpath href="#path-redis-aws"/>
+    </animateMotion>
+  </circle>
+  <path id="path-redis-aws" d="M 765 155 Q 900 110 995 145" fill="none" stroke="none"/>
+
+  <circle r="2.5" class="data-packet" style="fill: #e3b341;">
+    <animateMotion dur="5s" repeatCount="indefinite" begin="3s">
+      <mpath href="#path-mysql-aws"/>
+    </animateMotion>
+  </circle>
+  <path id="path-mysql-aws" d="M 720 305 Q 860 320 990 280" fill="none" stroke="none"/>
+
+  <!-- ══════ NODES ══════ -->
+
+  <!-- Node: API Gateway (left) -->
+  <g class="node-d1" transform="translate(155, 130)" filter="url(#glow-soft)">
+    <circle r="0" class="node-ring" stroke="#1f6feb" style="animation-delay: 1s;"/>
+    <circle r="26" fill="#0d1117" stroke="url(#node-blue)" stroke-width="2"/>
+    <text y="1" class="node-label" font-size="8">API</text>
+    <text y="38" class="node-sublabel">Gateway</text>
+  </g>
+
+  <!-- Node: Kafka (center-left) -->
+  <g class="node-d2" transform="translate(510, 170)" filter="url(#glow-soft)">
+    <circle r="0" class="node-ring" stroke="#e6edf3" style="animation-delay: 2s;"/>
+    <circle r="30" fill="#0d1117" stroke="#e6edf3" stroke-width="2"/>
+    <text y="1" class="node-label" font-size="9">Kafka</text>
+    <text y="44" class="node-sublabel">Event Stream</text>
+  </g>
+
+  <!-- Node: Redis (center-right) -->
+  <g class="node-d3" transform="translate(740, 140)" filter="url(#glow-soft)">
+    <circle r="0" class="node-ring" stroke="#da3633" style="animation-delay: 1.5s;"/>
+    <circle r="24" fill="#0d1117" stroke="url(#node-red)" stroke-width="2"/>
+    <text y="1" class="node-label" font-size="8">Redis</text>
+    <text y="36" class="node-sublabel">Cache</text>
+  </g>
+
+  <!-- Node: MySQL (bottom-center) -->
+  <g class="node-d4" transform="translate(690, 305)" filter="url(#glow-soft)">
+    <circle r="0" class="node-ring" stroke="#d29922" style="animation-delay: 2.5s;"/>
+    <circle r="24" fill="#0d1117" stroke="url(#node-orange)" stroke-width="2"/>
+    <text y="1" class="node-label" font-size="8">MySQL</text>
+    <text y="36" class="node-sublabel">Persistence</text>
+  </g>
+
+  <!-- Node: Spring Boot (bottom-left) -->
+  <g class="node-d5" transform="translate(175, 320)" filter="url(#glow-soft)">
+    <circle r="0" class="node-ring" stroke="#238636" style="animation-delay: 3s;"/>
+    <circle r="26" fill="#0d1117" stroke="url(#node-green)" stroke-width="2"/>
+    <text y="-2" class="node-label" font-size="7">Spring</text>
+    <text y="8" class="node-label" font-size="7">Boot</text>
+    <text y="40" class="node-sublabel">Service Layer</text>
+  </g>
+
+  <!-- Node: AWS (right) -->
+  <g class="node-d6" transform="translate(1020, 210)" filter="url(#glow-soft)">
+    <circle r="0" class="node-ring" stroke="#8957e5" style="animation-delay: 3.5s;"/>
+    <circle r="28" fill="#0d1117" stroke="url(#node-purple)" stroke-width="2"/>
+    <text y="1" class="node-label" font-size="9">AWS</text>
+    <text y="42" class="node-sublabel">Infrastructure</text>
+  </g>
+
+  <!-- ══════ Floating particles (ambient) ══════ -->
+  <circle cx="80" cy="60" r="1.5" class="particle p1"/>
+  <circle cx="320" cy="40" r="1" class="particle p2"/>
+  <circle cx="880" cy="50" r="1.2" class="particle p3"/>
+  <circle cx="1100" cy="80" r="1" class="particle p1" style="animation-delay: 2s;"/>
+  <circle cx="420" cy="370" r="1.5" class="particle p2" style="animation-delay: 1s;"/>
+  <circle cx="850" cy="360" r="1" class="particle p3" style="animation-delay: 3s;"/>
+  <circle cx="60" cy="220" r="1.2" class="particle p1" style="animation-delay: 4s;"/>
+  <circle cx="1140" cy="300" r="1" class="particle p2" style="animation-delay: 2.5s;"/>
+  <circle cx="250" cy="75" r="0.8" class="particle p3" style="animation-delay: 1.5s;"/>
+  <circle cx="950" cy="370" r="1.3" class="particle p1" style="animation-delay: 3.5s;"/>
+
+  <!-- ══════ Central text block ══════ -->
+  <g transform="translate(600, 200)">
+    <!-- Name -->
+    <text x="0" y="-15" text-anchor="middle" class="title-text">
+      Atul Sharma
+    </text>
+    <!-- Blinking cursor -->
+    <rect x="155" y="-42" width="3" height="36" class="cursor" rx="1"/>
+    <!-- Subtitle -->
+    <text x="0" y="22" text-anchor="middle" class="subtitle-text">
+      Software Engineer  ·  Systems Thinker  ·  Problem Solver
+    </text>
+  </g>
+
+  <!-- ══════ Bottom edge fade ══════ -->
+  <rect y="380" width="1200" height="20" fill="url(#bg)" opacity="0.8"/>
+</svg>
