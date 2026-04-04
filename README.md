@@ -159,11 +159,13 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
           <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
       </p>
+<ul align="left">
 - Engineered a production-grade rate limiting service supporting **Token Bucket** and **Sliding Window** algorithms, dynamically switchable via configuration.
 - Eliminated race conditions using **atomic Redis Lua scripts**, achieving throughput of **12,000 req/sec** with **sub-5ms p99 latency**.
 - Designed a declarative rate limiting layer via **Spring AOP (`@RateLimit`)**, enabling seamless integration across services.
 - Implemented resilience using **Resilience4j circuit breaker** with **Caffeine-based fallback caching** to maintain availability under failures.
 - Containerized and deployed with **Docker and Kubernetes**, ensuring scalability and production readiness.
+</ul>
       <p>
         <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
