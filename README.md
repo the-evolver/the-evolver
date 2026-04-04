@@ -159,9 +159,11 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
           <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
       </p>
-      - Production-grade rate limiting service with <b>Token Bucket</b> and <b>Sliding Window</b> algorithms, switchable via config. 
-      - Atomic Redis Lua scripts eliminate race conditions — benchmarked at <b>12,000 req/sec with sub-5ms p99 latency</b>.
-      - Features Spring AOP <code>@RateLimit</code> annotation, Resilience4j circuit breaker with Caffeine fallback, and K8s deployment configs.</p>
+- Engineered a production-grade rate limiting service supporting **Token Bucket** and **Sliding Window** algorithms, dynamically switchable via configuration.
+- Eliminated race conditions using **atomic Redis Lua scripts**, achieving throughput of **12,000 req/sec** with **sub-5ms p99 latency**.
+- Designed a declarative rate limiting layer via **Spring AOP (`@RateLimit`)**, enabling seamless integration across services.
+- Implemented resilience using **Resilience4j circuit breaker** with **Caffeine-based fallback caching** to maintain availability under failures.
+- Containerized and deployed with **Docker and Kubernetes**, ensuring scalability and production readiness.
       <p>
         <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
@@ -176,10 +178,12 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
           <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
         </a>
       </p>
-      - High-throughput notification system processing <b>50,000+ notifications/hour</b> across Email, SMS, and Push via Kafka fanout with priority-tiered topics.
-      - Redis-backed idempotent deduplication eliminates duplicate deliveries. 
-      - Full delivery state machine (QUEUED → DISPATCHED → DELIVERED/FAILED) with MySQL persistence and Redis cache for <b>&lt;50ms read latency</b>.
-      - Exponential backoff with DLQ routing.
+- Built a high-throughput notification system processing **50,000+ notifications/hour** across Email, SMS, and Push channels using **Kafka-based fanout architecture**.
+- Designed **priority-tiered Kafka topics** to ensure differentiated delivery guarantees and optimized processing under load.
+- Eliminated duplicate deliveries via **Redis-backed idempotency layer**, ensuring exactly-once processing semantics at scale.
+- Modeled a robust **delivery state machine (QUEUED → DISPATCHED → DELIVERED/FAILED)** with persistent tracking in MySQL and **sub-50ms read latency via Redis caching**.
+- Implemented **fault-tolerant retry mechanisms** using exponential backoff and **Dead Letter Queues (DLQ)** for failed events.
+- Decoupled notification producers and consumers, improving system scalability and enabling independent service evolution.
       <p>
         <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
