@@ -187,6 +187,7 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
 <li>Modeled a robust **delivery state machine (QUEUED → DISPATCHED → DELIVERED/FAILED)** with persistent tracking in MySQL and **sub-50ms read latency via Redis caching**.</li>
 <li>Implemented **fault-tolerant retry mechanisms** using exponential backoff and **Dead Letter Queues (DLQ)** for failed events.</li>
 <li>Decoupled notification producers and consumers, improving system scalability and enabling independent service evolution.</li>
+</ul>
       <p>
         <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
         <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
