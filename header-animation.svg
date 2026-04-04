@@ -384,7 +384,7 @@
   <g transform="translate(600, 200)">
     <!-- Name -->
     <text x="0" y="-15" text-anchor="middle" class="title-text">
-      Atul Sharma
+      Atul Kumar
     </text>
     <!-- Blinking cursor -->
     <rect x="155" y="-42" width="3" height="36" class="cursor" rx="1"/>
