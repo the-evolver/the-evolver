@@ -160,11 +160,11 @@ Currently at **Compro Technologies**, where I work on distributed systems, have 
         </a>
       </p>
 <ul align="left">
-- Engineered a production-grade rate limiting service supporting **Token Bucket** and **Sliding Window** algorithms, dynamically switchable via configuration.
-- Eliminated race conditions using **atomic Redis Lua scripts**, achieving throughput of **12,000 req/sec** with **sub-5ms p99 latency**.
-- Designed a declarative rate limiting layer via **Spring AOP (`@RateLimit`)**, enabling seamless integration across services.
-- Implemented resilience using **Resilience4j circuit breaker** with **Caffeine-based fallback caching** to maintain availability under failures.
-- Containerized and deployed with **Docker and Kubernetes**, ensuring scalability and production readiness.
+  <li>Engineered a production-grade rate limiting service supporting <b>Token Bucket</b> and <b>Sliding Window</b> algorithms, dynamically switchable via configuration.</li>
+  <li>Eliminated race conditions using <b>atomic Redis Lua scripts</b>, achieving throughput of <b>12,000 req/sec</b> with <b>sub-5ms p99 latency</b>.</li>
+  <li>Designed a declarative rate limiting layer via <b>Spring AOP (<code>@RateLimit</code>)</b>, enabling seamless integration across services.</li>
+  <li>Implemented resilience using <b>Resilience4j circuit breaker</b> with <b>Caffeine-based fallback caching</b> to maintain availability under failures.</li>
+  <li>Containerized and deployed with <b>Docker and Kubernetes</b>, ensuring scalability and production readiness.</li>
 </ul>
       <p>
         <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
