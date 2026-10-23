@@ -1,242 +1,159 @@
-<img width="100%" src="https://raw.githubusercontent.com/the-evolver/the-evolver/main/header-animation.svg" />
-
-<br/>
+<img width="100%" src="assets/header-animation.svg" alt="Atul Kumar — Backend Engineer · Java · Distributed Systems" />
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=250&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=150&lines=AIR+6+%E2%80%94+CodeChef;Global+Rank+51+%E2%80%94+LeetCode;1000%2B+Problems+Solved+on+Leetcode;Building+Distributed+Systems+at+Scale" alt="Typing SVG" />
-  </a>
+  <img width="100%" src="assets/typing-header.svg" alt="Backend Software Engineer — Java · Spring Boot · AWS · AIR 6, CodeChef Long Challenge · Global Rank 51, LeetCode Weekly 472 · Building Distributed Systems at Scale" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/atulcse/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
-  <a href="https://the-evolver.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox-browser&logoColor=white" /></a>&nbsp;
-  <a href="https://leetcode.com/u/recursive_coder/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>&nbsp;
-  <a href="mailto:contacts.atulsharma@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/atulcse/"><img src="assets/badges/linkedin.svg" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://the-evolver.github.io/"><img src="assets/badges/portfolio.svg" alt="Portfolio" /></a>&nbsp;
+  <a href="https://leetcode.com/u/recursive_coder/"><img src="assets/badges/leetcode.svg" alt="LeetCode" /></a>&nbsp;
+  <a href="mailto:contacts.atulsharma@gmail.com"><img src="assets/badges/email.svg" alt="Email" /></a>
 </p>
 
----
+<img width="100%" src="assets/divider.svg" alt="" />
 
 ## `> whoami`
 
-Full-stack engineer with a strong backend focus — I enjoy building systems that hold up under pressure. My day-to-day revolves around **Java, Spring Boot, Kafka, AWS, and Node.js**, and I find real satisfaction in diagnosing tricky production issues.
+**Backend Software Engineer** with 3 years of experience building scalable **Java and Spring Boot microservices**, event-driven systems on **Apache Kafka**, and cloud services on **AWS** — with a focus on low latency and reliability.
 
-I'm also a competitive programmer at heart. **All India Rank 6** on CodeChef, **Global Rank 51** in LeetCode Weekly Contests, and **336 hard problems** solved. I like thinking through problems from first principles — invariants, edge cases, and complexity — before writing a single line.
+Senior Software Engineer at **Compro Technologies**, where I led a DynamoDB and S3 migration of 10M+ objects end to end, cut lookup latency from 800ms to under 20ms, and mentor newer engineers. Competitive programmer on the side: **Global Rank 51** in LeetCode Weekly 472 and **All India Rank 6** in CodeChef's Long Challenge.
 
-Currently at **Compro Technologies**, where I work on distributed systems, have helped cut query latencies from ~800ms to under 20ms, and enjoy mentoring newer engineers. I'm now looking for high-impact roles where I can contribute to systems built for scale.
+I'm looking for high-impact backend roles on systems built for scale.
 
----
+<img width="100%" src="assets/divider.svg" alt="" />
 
-## 🏆 Competitive Programming
+## 💼 Experience
 
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/AIR_6-CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" /><br/>
-      <sub><b>Long Challenge </b></sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Global_51-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /><br/>
-      <sub><b>Weekly Contest 472</b></sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/1000+-Problems_Solved-00b8a3?style=for-the-badge" /><br/>
-      <sub><b>336 Hard Problems</b></sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Top_11%25-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /><br/>
-      <sub><b>Rating 1724+</b></sub>
-    </td>
-  </tr>
-</table>
+### Senior Software Engineer · Compro Technologies
+<sub>Jul 2023 – Present</sub>
 
----
+- Led a **DynamoDB and S3 migration** end to end, moving **10M+ objects** through an idempotent pipeline; redesigned indexes cut lookup latency from **800ms to under 20ms** and read cost by **40%**.
+- Architected a **Kafka event pipeline** that decoupled 4 downstream services and improved data freshness by **30%**.
+- Designed **JWT authentication and role-based access control** across 6+ microservices with Redis-cached permission checks **under 10ms**; passed a third-party security audit with **zero critical findings**.
+- Moved CI/CD to **GitHub Actions** with ECS rolling deploys, cutting hotfix releases from **4 hours to under 1 hour**.
+- Raised test coverage from **under 30% to 87%** with JUnit 5 and Mockito, cutting production bugs by **40%**.
+- Partnered daily with product managers and QA to deliver REST APIs and transactional workflows for a subscription-based assignment platform, growing feature adoption by **20% in two quarters**.
+- Mentored and onboarded **3 junior engineers**, presented system designs in team reviews, and ran root-cause analysis on production issues using New Relic.
 
-## 🛠️ Tech Stack
+<img width="100%" src="assets/divider.svg" alt="" />
 
-<details open>
-<summary><b>Languages</b></summary>
-<br/>
+## 🚀 Projects
 
-![Java](https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+<h3 align="center">🧠 LLM Gateway</h3>
 
-</details>
+<p align="center">
+  <img width="100%" src="assets/llm-gateway-animation.svg" alt="Animated diagram of the LLM Gateway: requests routed to the cheapest capable model, escalated on low confidence, and failed over across providers" />
+</p>
 
-<details open>
-<summary><b>Backend & Distributed Systems</b></summary>
-<br/>
+<p align="center">
+  <a href="https://github.com/the-evolver/p-llm-gateway"><img src="assets/badges/view-code.svg" alt="View code" /></a>
+</p>
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-FF5733?style=flat-square)
+- Implemented an **API gateway over Anthropic, OpenAI, Groq and AWS Bedrock** that routes each request to the **cheapest capable model**, with **confidence-based escalation** and **cross-provider fallback**.
+- Exposed **OpenAI-compatible streaming endpoints** with tool calling, per-key rate limits and daily budget caps.
 
-</details>
+<p align="center">
+  <img src="assets/badges/chip-typescript.svg" alt="TypeScript" />
+  <img src="assets/badges/chip-nodejs.svg" alt="Node.js" />
+  <img src="assets/badges/chip-fastify.svg" alt="Fastify" />
+  <img src="assets/badges/chip-bedrock.svg" alt="AWS Bedrock" />
+</p>
 
-<details open>
-<summary><b>Frontend</b></summary>
-<br/>
+<h3 align="center">⚡ Distributed Rate Limiter</h3>
 
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+<p align="center">
+  <img width="100%" src="assets/footer-rate-limiter.svg" alt="Animated diagram of the distributed rate limiter: token bucket and sliding window" />
+</p>
 
-</details>
+<p align="center">
+  <a href="https://github.com/the-evolver/Distributed-rate-limiter-service"><img src="assets/badges/view-code.svg" alt="View code" /></a>
+</p>
 
-<details open>
-<summary><b>Databases</b></summary>
-<br/>
+- Open-sourced **Token Bucket** and **Sliding Window** limiters using **Redis Lua scripts**: **12,000 req/sec, p99 under 5ms**.
+- Created a **Spring AOP `@RateLimit`** annotation for per-user, per-IP and per-key limits, with **circuit-breaker fallback**.
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+<p align="center">
+  <img src="assets/badges/chip-java.svg" alt="Java 17" />
+  <img src="assets/badges/chip-springboot.svg" alt="Spring Boot 3" />
+  <img src="assets/badges/chip-redis.svg" alt="Redis" />
+</p>
 
-</details>
+<h3 align="center">🔔 Notification Engine</h3>
 
-<details open>
-<summary><b>Cloud & DevOps</b></summary>
-<br/>
+<p align="center">
+  <img width="100%" src="assets/notification-engine-animation.svg" alt="Animated dashboard of the notification engine: delivery pipeline, audit log and metrics" />
+</p>
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![ECS](https://img.shields.io/badge/ECS-FF9900?style=flat-square&logo=amazonecs&logoColor=white)
-![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
-![S3](https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+<p align="center">
+  <a href="https://github.com/the-evolver/notification-engine"><img src="assets/badges/view-code.svg" alt="View code" /></a>
+</p>
 
-</details>
+- Engineered a **50,000+ notifications/hour** engine on **priority-tiered Kafka topics** with **Redis deduplication**, exponential backoff and **dead-letter queues** for duplicate-free delivery.
+- Modeled a **delivery state machine** on MySQL with Redis caching, serving real-time status reads in **under 50ms**.
+
+<p align="center">
+  <img src="assets/badges/chip-java.svg" alt="Java" />
+  <img src="assets/badges/chip-springboot.svg" alt="Spring Boot" />
+  <img src="assets/badges/chip-kafka.svg" alt="Apache Kafka" />
+  <img src="assets/badges/chip-mysql.svg" alt="MySQL" />
+  <img src="assets/badges/chip-redis.svg" alt="Redis" />
+</p>
 
 <details>
-<summary><b>Testing & Observability</b></summary>
-<br/>
-
-![JUnit](https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white)
-![Mockito](https://img.shields.io/badge/Mockito-78A641?style=flat-square)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![New Relic](https://img.shields.io/badge/New_Relic-1CE783?style=flat-square&logo=newrelic&logoColor=black)
-
-</details>
-
----
-
-## 💼 Impact @ Compro Technologies
-
-> **Software Engineer** · New Delhi · Jul 2023 – Present
-
-**Distributed Systems & Data Migration**
-- Engineered a resumable distributed pipeline to migrate **10M+ S3 objects** across storage tiers. Redesigned DynamoDB access patterns using GSIs with composite sort keys, reducing average lookup latency from **~800ms to under 20ms** and cutting per-query read cost by ~40%. Implemented checkpointing for idempotent re-runs without data duplication.
-- Architected a **Kafka-based event streaming pipeline** with dedicated topics per metadata type and manually committed offsets for at-least-once delivery. Decoupled 4 tightly coupled downstream services, improving data freshness by 30%.
-
-**Auth, APIs & Backend**
-- Designed **JWT RS256 authentication and RBAC** spanning 6+ microservices — MySQL for role storage, Redis cache for sub-10ms permission lookups. Passed a third-party security compliance audit with zero critical findings on first submission.
-- Built REST APIs and transactional backend workflows for a subscription-style assignment system with idempotent state transitions and audit logging. Feature adoption grew **20% within two quarters**.
-
-**CI/CD & Quality**
-- Replaced AWS CodePipeline with a fully automated **GitHub Actions pipeline** using Docker, ECS/ECR rolling deployments, and S3 artifact caching. Cut hotfix deployment time from **~4 hours to under 60 minutes** and eliminated all manual deployment steps.
-- Grew automated test coverage from **under 30% to 87%** across unit and E2E layers (JUnit 5, Mockito, Jest). Established a CI coverage threshold gate, directly reducing production bug reports by 40% over two release cycles.
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-      <h3 align="center">⚡ Distributed Rate Limiter</h3>
-      <img width="100%" src="https://raw.githubusercontent.com/the-evolver/the-evolver/main/footer-rate-limiter.svg" />
-      <p align="center">
-        <a href="https://github.com/the-evolver/Distributed-rate-limiter-service">
-          <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-      </p>
-<ul align="left">
-  <li>Engineered a production-grade rate limiting service supporting <b>Token Bucket</b> and <b>Sliding Window</b> algorithms, dynamically switchable via configuration.</li>
-  <li>Eliminated race conditions using <b>atomic Redis Lua scripts</b>, achieving throughput of <b>12,000 req/sec</b> with <b>sub-5ms p99 latency</b>.</li>
-  <li>Designed a declarative rate limiting layer via <b>Spring AOP (<code>@RateLimit</code>)</b>, enabling seamless integration across services.</li>
-  <li>Implemented resilience using <b>Resilience4j circuit breaker</b> with <b>Caffeine-based fallback caching</b> to maintain availability under failures.</li>
-  <li>Containerized and deployed with <b>Docker and Kubernetes</b>, ensuring scalability and production readiness.</li>
-</ul>
-      <p>
-        <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-      </p>
-      <h3 align="center">🔔 Notification Engine</h3>
-      <img width="100%" src="https://raw.githubusercontent.com/the-evolver/the-evolver/main/notification-engine-animation.svg" />
-      <p align="center">
-        <a href="https://github.com/the-evolver/notification-engine">
-          <img src="https://img.shields.io/badge/VIEW_CODE-181717?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-      </p>
-<ul align="left">
-<li>Built a high-throughput notification system processing **50,000+ notifications/hour** across Email, SMS, and Push channels using **Kafka-based fanout architecture**.</li>
-<li>Designed **priority-tiered Kafka topics** to ensure differentiated delivery guarantees and optimized processing under load.</li>
-<li>Eliminated duplicate deliveries via **Redis-backed idempotency layer**, ensuring exactly-once processing semantics at scale.</li>
-<li>Modeled a robust **delivery state machine (QUEUED → DISPATCHED → DELIVERED/FAILED)** with persistent tracking in MySQL and **sub-50ms read latency via Redis caching**.</li>
-<li>Implemented **fault-tolerant retry mechanisms** using exponential backoff and **Dead Letter Queues (DLQ)** for failed events.</li>
-<li>Decoupled notification producers and consumers, improving system scalability and enabling independent service evolution.</li>
-</ul>
-      <p>
-        <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-      </p>
-   </div>
-
-<details>
-<summary><b>Other Projects</b></summary>
+<summary><b>More projects</b></summary>
 <br/>
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [Smart Contact Manager](https://github.com/the-evolver/smart_contact_manager) | Enterprise contact management with Spring Security, CSRF, and MVC | Java, Spring Boot, Hibernate |
+| [Smart Contact Manager](https://github.com/the-evolver/smart_contact_manager) | Contact management with Spring Security, CSRF protection and MVC | Java, Spring Boot, Hibernate |
 | [AirBnBee](https://github.com/the-evolver/AirBnBee) | Full-stack accommodation platform with SSR and OAuth | Next.js, React, MongoDB, Prisma |
 
 </details>
 
----
+<img width="100%" src="assets/divider.svg" alt="" />
 
-## 📊 GitHub Analytics
+## 🛠️ Technical Skills
 
 <p align="center">
-  <img width="49%" src="https://streak-stats.demolab.com/?user=the-evolver&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
- 
+  <img width="100%" src="assets/tech-stack.svg" alt="Languages: Java, C++, SQL, JavaScript, TypeScript. Frameworks: Spring Boot, Spring Security, Spring Data JPA, Hibernate, Node.js, REST APIs, Microservices. Data & Messaging: MySQL, DynamoDB, MongoDB, Redis, Apache Kafka. Cloud & DevOps: AWS (ECS, ECR, S3, Lambda, IAM, VPC), Docker, Kubernetes, GitHub Actions, CI/CD. Testing & Observability: JUnit 5, Mockito, New Relic." />
 </p>
 
----
+<p align="center"><sub><b>Engineering:</b> System Design · Distributed Systems · Event-Driven Architecture · Design Patterns · Agile</sub></p>
 
-## 🎯 What I'm Up To
+<img width="100%" src="assets/divider.svg" alt="" />
 
-- 🔨 **Building:** Backend systems designed for scale — rate limiting, notification pipelines, event-driven architectures
-- 📚 **Studying:** System Design (Alex Xu Vol. 1) + Advanced DSA
-- 🎯 **Targeting:** High-impact backend roles at top product companies
-- 🧠 **Exploring:** Machine Learning fundamentals with a fintech lens
+## 🏆 Achievements
 
----
+<p align="center">
+  <img width="100%" src="assets/achievements.svg" alt="All India Rank 6 in CodeChef Long Challenge · Global Rank 51 in LeetCode Weekly Contest 472 · 1000+ problems solved, 336 hard · LeetCode Top 11%, rating 1724+" />
+</p>
+
+<p align="center"><sub>
+  Verify: <a href="https://leetcode.com/contest/weekly-contest-472/ranking/2/?region=global_v2">LeetCode Weekly 472 ranking</a> ·
+  <a href="https://www.codechef.com/rankings/OCT221C">CodeChef Long Challenge ranking</a> ·
+  <a href="https://leetcode.com/u/recursive_coder/">LeetCode profile</a>
+</sub></p>
+
+<img width="100%" src="assets/divider.svg" alt="" />
+
+## 📊 Stats
+
+<p align="center">
+  <img width="49%" src="assets/stats/github.svg" alt="GitHub contribution streak, stars, PRs and repositories" />
+  <img width="49%" src="assets/stats/leetcode.svg" alt="LeetCode problems solved by difficulty and contest rating" />
+</p>
+<p align="center">
+  <img width="100%" src="assets/stats/contributions.svg" alt="GitHub contribution activity over the last year" />
+</p>
+
+<p align="center"><sub>Rendered from live data by this repo's own GitHub Action — refreshed daily.</sub></p>
+
+<img width="100%" src="assets/divider.svg" alt="" />
 
 ## 🎓 Education
 
-**B.Tech in Computer Science & Engineering** · CGPA: **9.2**
-JK Institute of Applied Physics & Technology · 2019 – 2023
+**Bachelor of Technology, Computer Science and Engineering** · CGPA **9.2 / 10**<br/>
+JK Institute of Applied Physics and Technology, University of Allahabad · Jul 2019 – Jun 2023
 
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=the-evolver&color=1f6feb&style=flat-square&label=Profile+Views&base=20000" />
-</p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,5,7&height=120&section=footer&animation=twinkling" />
+<img width="100%" src="assets/footer-wave.svg" alt="" />

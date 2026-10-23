@@ -1,0 +1,12 @@
+{
+  "name": "profile-static-assets",
+  "private": true,
+  "type": "module",
+  "description": "Regenerates the README's badges, tech-stack panel, achievements card and footer. Run: npm install && npm run build",
+  "scripts": { "build": "node build-static.mjs" },
+  "devDependencies": {
+    "badge-maker": "6.0.0",
+    "simple-icons": "16.35.0",
+    "si-old": "npm:simple-icons@9.21.0"
+  }
+}
