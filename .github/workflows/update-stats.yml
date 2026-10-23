@@ -1,0 +1,51 @@
+name: Update profile stats
+
+# Re-renders assets/stats/*.svg from live GitHub + LeetCode data.
+# If a source is unreachable the old card is kept, so the README never shows a broken image.
+on:
+  schedule:
+    - cron: "17 23 * * *"   # daily, 04:47 IST
+  workflow_dispatch:        # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - scripts/update-stats.mjs
+      - .github/workflows/update-stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Render stat cards
+        run: node scripts/update-stats.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+          LC_USER: recursive_coder
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats
+          if git diff --cached --quiet; then
+            echo "Stats unchanged."
+            exit 0
+          fi
+          git commit -m "chore: refresh profile stats"
+          git pull --rebase --autostash
+          git push
