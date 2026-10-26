@@ -22,18 +22,18 @@
 <text x="92" y="134" class="sm">solved</text>
 </g>
 <g class="fade" style="animation-delay:.2s"><text x="190" y="66" class="k" style="fill:#00b8a3">Easy</text>
-<text x="424" y="66" class="v" text-anchor="end">294<tspan class="k"> / 973</tspan></text>
+<text x="424" y="66" class="v" text-anchor="end">294<tspan class="k"> / 974</tspan></text>
 <rect x="190" y="74" width="234" height="6" rx="3" fill="#161b22"/>
-<rect x="190" y="74" width="70.7" height="6" rx="3" fill="#00b8a3">
-<animate attributeName="width" from="0" to="70.7" dur="1s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect><text x="190" y="104" class="k" style="fill:#ffc01e">Medium</text>
-<text x="424" y="104" class="v" text-anchor="end">431<tspan class="k"> / 2,133</tspan></text>
+<rect x="190" y="74" width="70.6" height="6" rx="3" fill="#00b8a3">
+<animate attributeName="width" from="0" to="70.6" dur="1s" begin="0s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect><text x="190" y="104" class="k" style="fill:#ffc01e">Medium</text>
+<text x="424" y="104" class="v" text-anchor="end">431<tspan class="k"> / 2,135</tspan></text>
 <rect x="190" y="112" width="234" height="6" rx="3" fill="#161b22"/>
-<rect x="190" y="112" width="47.3" height="6" rx="3" fill="#ffc01e">
-<animate attributeName="width" from="0" to="47.3" dur="1s" begin="0.15s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect><text x="190" y="142" class="k" style="fill:#ef4743">Hard</text>
-<text x="424" y="142" class="v" text-anchor="end">346<tspan class="k"> / 985</tspan></text>
+<rect x="190" y="112" width="47.2" height="6" rx="3" fill="#ffc01e">
+<animate attributeName="width" from="0" to="47.2" dur="1s" begin="0.15s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect><text x="190" y="142" class="k" style="fill:#ef4743">Hard</text>
+<text x="424" y="142" class="v" text-anchor="end">346<tspan class="k"> / 986</tspan></text>
 <rect x="190" y="150" width="234" height="6" rx="3" fill="#161b22"/>
-<rect x="190" y="150" width="82.2" height="6" rx="3" fill="#ef4743">
-<animate attributeName="width" from="0" to="82.2" dur="1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect></g>
+<rect x="190" y="150" width="82.1" height="6" rx="3" fill="#ef4743">
+<animate attributeName="width" from="0" to="82.1" dur="1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect></g>
 <line x1="20" x2="428" y1="178" y2="178" stroke="#30363d" stroke-opacity=".6"/>
 <svg x="42" y="187" width="13" height="13" viewBox="0 0 24 24"><path fill="#ffc01e" d="M5 3h14v3a5 5 0 0 1-4 4.9V13h2v2H7v-2h2v-2.1A5 5 0 0 1 5 6V3zM3 4h2v2H3V4zm16 0h2v2h-2V4zM8 17h8v3H8z"/></svg><text x="61" y="198" class="k">Rating</text><text x="109" y="198" class="v">1,724</text><svg x="178" y="187" width="13" height="13" viewBox="0 0 24 24"><path fill="#ffc01e" d="M12 2l2.9 6.9 7.1.6-5.4 4.7 1.6 7.1L12 17.6 5.8 21.3l1.6-7.1L2 9.5l7.1-.6z"/></svg><text x="197" y="198" class="k">Top</text><text x="224" y="198" class="v">12.47%</text><svg x="314" y="187" width="13" height="13" viewBox="0 0 24 24"><path fill="#ffc01e" d="M4 2.5A2.5 2.5 0 0 1 6.5 0H20v18H6.5a.5.5 0 0 0 0 1H20v2H6.5A2.5 2.5 0 0 1 4 18.5v-16zM9 4v2h8V4H9z"/></svg><text x="333" y="198" class="k">Contests</text><text x="395" y="198" class="v">24</text>
 </svg>
