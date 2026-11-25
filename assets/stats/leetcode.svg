@@ -30,7 +30,7 @@
 <rect x="190" y="112" width="234" height="6" rx="3" fill="#161b22"/>
 <rect x="190" y="112" width="46.9" height="6" rx="3" fill="#ffc01e">
 <animate attributeName="width" from="0" to="46.9" dur="1s" begin="0.15s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect><text x="190" y="142" class="k" style="fill:#ef4743">Hard</text>
-<text x="424" y="142" class="v" text-anchor="end">346<tspan class="k"> / 993</tspan></text>
+<text x="424" y="142" class="v" text-anchor="end">346<tspan class="k"> / 994</tspan></text>
 <rect x="190" y="150" width="234" height="6" rx="3" fill="#161b22"/>
 <rect x="190" y="150" width="81.5" height="6" rx="3" fill="#ef4743">
 <animate attributeName="width" from="0" to="81.5" dur="1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1"/></rect></g>
